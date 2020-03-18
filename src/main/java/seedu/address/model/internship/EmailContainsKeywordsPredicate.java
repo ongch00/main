@@ -20,7 +20,8 @@ public class EmailContainsKeywordsPredicate implements Predicate<InternshipAppli
         }
 
         return keywords.stream()
-                .anyMatch(keyword -> internshipApplication.getEmail().value.toLowerCase().contains(keyword));
+                .anyMatch(keyword -> internshipApplication.getEmail().value.toLowerCase()
+                        .contains(keyword.toLowerCase()));
     }
 
     @Override
