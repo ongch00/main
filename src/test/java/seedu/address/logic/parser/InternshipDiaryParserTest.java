@@ -56,7 +56,7 @@ public class InternshipDiaryParserTest {
                 DeleteCommand.COMMAND_WORD + " " + INDEX_FIRST_INTERNSHIP_APPLICATION.getOneBased());
         assertEquals(new DeleteCommand(INDEX_FIRST_INTERNSHIP_APPLICATION), command);
     }
-    
+
     @Test
     public void parseCommand_edit() throws Exception {
         InternshipApplication internshipApplication = new InternshipApplicationBuilder().build();
