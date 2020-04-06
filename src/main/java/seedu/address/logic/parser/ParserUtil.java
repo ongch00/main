@@ -235,7 +235,7 @@ public class ParserUtil {
     public static InterviewCode parseInterviewCode(String code) throws ParseException {
         requireNonNull(code);
         String trimmedCode = code.trim();
-        if (!InterviewCode.isValidCode(trimmedCode)) {
+        if (!InterviewCode.isValidCode(trimmedCode.toLowerCase())) {
             throw new ParseException(InterviewCode.MESSAGE_CONSTRAINTS);
         }
         return InterviewCode.valueOf(trimmedCode.toUpperCase());
