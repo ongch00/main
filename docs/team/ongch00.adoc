@@ -4,7 +4,7 @@
 :stylesDir: ../stylesheets
 :prURL: https://github.com/AY1920S2-CS2103T-F10-2/main/pull/
 
-== PROJECT: My Internship Diary
+== PROJECT: Internship Diary
 
 ---
 
